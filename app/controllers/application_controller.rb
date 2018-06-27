@@ -1,5 +1,5 @@
 require './config/environment'
-require './app/models/sample_model'
+require './app/models/girlboss'
 
 class ApplicationController < Sinatra::Base
   configure do
@@ -7,7 +7,19 @@ class ApplicationController < Sinatra::Base
     set :views, 'app/views'
   end
 
-  get '/' do
-    return erb :index
+  get '/breakfast' do
+    erb :breakfast
+  end
+
+  get '/lunch' do
+    erb :lunch
+  end
+
+  get '/dinner' do
+    erb :dinner
+  end
+
+  get '/snack' do
+    erb :snack
   end
 end
