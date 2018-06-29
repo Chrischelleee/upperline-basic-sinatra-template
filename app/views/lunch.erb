@@ -1,7 +1,245 @@
-<h1>Lunch Ideas</h1>
 
-  <ul>
-    <% Meal.lunch.each do |lunch| %>
-    <li> <%= lunch %> </li>
-    <% end %>
-  </ul>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>LunchBo$$</title>
+  <!-- Compiled and minified CSS -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+   <!-- Compiled and minified JavaScript -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+   
+   <style>
+     
+   </style>
+</head>
+<body>
+  <h1>Lunch</h1>
+  
+  <div class="container">
+    <div class = "row">
+      <div class="card col-xl6">
+        <div class="card-image waves-effect waves-block waves-light">
+          <img class="activator" src="http://d2814mmsvlryp1.cloudfront.net/wp-content/uploads/2016/03/WGC-BLT-Salmon-Salad-copy-2.jpg">
+        </div>
+   <div class="card-content">
+     <span class="card-title activator grey-text text-darken-4"><%="#{Meal.lunch[0].upcase}"%><i class="material-icons right">click here for recipe:)</i></span>
+    
+   </div>
+   <div class="card-reveal">
+     <span class="card-title grey-text text-darken-4"><%="#{Meal.lunch[0].upcase}"%><i class="material-icons right">close</i></span>
+     <p><%="<h2>Ingredients</h2>
+<ul>
+<li>2 cups cooked, flaked salmon</li>
+<li>2 hard-boiled eggs, crushed</li>
+<li>1 red or green bell pepper, diced</li>
+<li>1 cucumber, peeled, seeded, and diced</li>
+<li>1/2 cup chopped onions</li>
+<li>4 to 5 tablespoons mayonnaise, or enough to moisten</li>
+<li>1/4 teaspoon cayenne pepper, optional</li>
+<li>Salt and pepper</li>
+<li>1/2 lemon, juiced</li>
+</ul>
+
+<h2>Instructions</h2>
+<ol>
+<li>Mix all the ingredients together in a bowl.</li>
+</ol>
+"%></p>
+     
+     
+     
+     
+     
+     
+     
+     
+     
+   </div>
+   </div>
+      <div class="card col-xl6">
+        <div class="card-image waves-effect waves-block waves-light">
+          <img class="activator" src="https://ci6.googleusercontent.com/proxy/7S1SOjX-cKUQxJGR0Hxl59Lfy6uQNv85F4qK5eVxnjKmi26fFEzBK3yhNlRXSE_0oXG4myqfk9NYMQv24HZ9pEi0zyTrejuIZeoNXF4af85sQGPxvuwYK0mbUnDi9ESpY49LCR-pc8Bf8u--1aqf-FP8eNkOr3euJQ=s0-d-e1-ft#https://www.vegetariantimes.com/.image/t_share/MTQ3MDM0NTY2NzM1OTYzMjMx/quinoa_salad1_2000_1125.jpg">
+        </div>
+   <div class="card-content">
+     <span class="card-title activator grey-text text-darken-4"><%="#{Meal.lunch[1].upcase}"%><i class="material-icons right">click here for recipe:)</i></span>
+    
+   </div>
+   <div class="card-reveal">
+     <span class="card-title grey-text text-darken-4"><%="#{Meal.lunch[1].upcase}"%><i class="material-icons right">close</i></span>
+     <p><%="#{"<h2>Ingredients</h2>
+<ul>
+<li>1 1/2 cups quinoa</li>
+<li>1 English cucumber, peeled and finely diced (21/2 cups)</li>
+<li>3 Roma tomatoes, seeded and finely diced (3/4 cup)</li>
+<li>1/2 small red onion, finely chopped (1/2 cup)</li>
+<li>1/2 cup chopped fresh parsley</li>
+<li>1/4 cup olive oil</li>
+<li>3 Tbs. lemon juice</li>
+<li>2 tsp. grated lemon zest</li>
+</ul>
+
+<h2>Instructions</h2>
+<ol>
+<li>Bring 2 quarts salted water to a boil. Add quinoa, cover, and reduce heat to medium-low. Simmer 12 to 14 minutes, or  until quinoa is tender and small “tails” bloom from grains.</li>
+<li>Preheat oven to 400°F. Spread pine nuts on baking sheet, and toast 3 to 4 minutes, or until lightly browned. Cool, then transfer to large serving bowl.</li>
+<li>Drain quinoa, and rinse under cold running water. Drain again. Add quinoa to pine nuts, and  stir in cucumber, tomatoes, onion, and parsley. Fold in oil, lemon juice, and lemon zest, and season with salt and pepper, if desired</li>
+</ol>
+
+"}"%></p>
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+   </div>
+   </div>
+ </div>
+ </div>
+ <div class="container">
+ <div class = "row">
+      <div class="card col-xl6">
+        <div class="card-image waves-effect waves-block waves-light">
+          <img class="activator" src="https://i.pinimg.com/736x/63/f3/6a/63f36a24ff009872c1513de34db483d6--slow-cooker-vegetable-stew-lentil-soup-in-crockpot.jpg">
+        </div>
+   <div class="card-content">
+     <span class="card-title activator grey-text text-darken-4"><%="#{Meal.lunch[2].upcase}"%><i class="material-icons right">click here for recipe:)</i></span>
+   </div>
+   <div class="card-reveal">
+     <span class="card-title grey-text text-darken-4"><%="#{Meal.lunch[2].upcase}"%><i class="material-icons right">close</i></span>
+     <p><%="#{"<h2>Ingredients</h2>
+<ul>
+<li>SOUP</li>
+<li>2 Tbsp water (or sub oil of choice // such as avocado or coconut)</li>
+<li>2 cloves garlic minced (or sub 2 Tbsp garlic-infused oil*)</li>
+<li>2 small shallots (optional // or 1/2 white onion as recipe is written // diced)</li>
+<li>4 large carrots (thinly sliced)</li>
+<li>4 stalks celery (thinly sliced)</li>
+<li>1/4 tsp each sea salt and black pepper (divided // plus more to taste)</li>
+<li>3 cups yellow or red baby potatoes (roughly chopped into bite-size pieces*)</li>
+<li>4 cups vegetable broth</li>
+<li>2-3 sprigs fresh rosemary or thyme (I used a bit of both)</li>
+<li>1 cup uncooked green or brown lentils (thoroughly rinsed and drained)</li>
+<li>2 cups chopped sturdy greens (such as kale or collard greens)</li>
+<li>FOR SERVING optional</li>
+<li>Fresh parsley</li>
+<li>Rice or Cauliflower Rice</li>
+<li>Garlic & Herb Flatbread</li>
+<li>Spelt Dinner Rolls</li>
+</ul>
+
+<h2>Instructions</h2>
+<ol>
+<li>Heat a large pot over medium heat. Once hot, add water (or oil), garlic, shallots/onion (optional), carrots, and celery. Season with a bit of salt and pepper and stir.</li>
+<li>Sauté for 4-5 minutes or until slightly tender and golden brown. Be careful not to burn the garlic (turn heat down if it's cooking too quickly.)</li>
+<li>Add potatoes and season with a bit more salt and pepper. Stir and cook for 2 minutes more.</li>
+<li>Add vegetable broth and rosemary or thyme and increase heat to medium high. Bring to a rolling simmer. Then add lentils and stir. Once simmering again, reduce heat to low and simmer uncovered for 15-20 minutes or until lentils and potatoes are tender.</li>
+<li>Add your greens, stir, and cover. Cook for 3-4 minutes more to wilt. Then taste and adjust flavor as needed, adding more salt and pepper for overall flavor, vegetable broth if it's become too thick, or herbs for earthy flavor.</li>
+<li>Enjoy as is or serve with rice, cauliflower rice, or a side of flatbread or rolls (links above). I love garnishing mine with a little fresh parsley for a pop of color and freshness (optional).</li>
+<li>Store leftovers covered in the refrigerator up to 5 days or in the freezer up to 1 month. Reheat on the stovetop and add more vegetable broth to rehydrate as needed.</li>
+</ol>
+
+
+
+
+"}"%></p>
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+   </div>
+   </div>
+
+      <div class="card col-xl6">
+        <div class="card-image waves-effect waves-block waves-light">
+          <img class="activator" src="https://cdn-image.foodandwine.com/sites/default/files/styles/medium_2x/public/double-drive-thru-veggie-burger-xl-recipe0316_0.jpg?itok=H1AWnOKz">
+        </div>
+   <div class="card-content">
+     <span class="card-title activator grey-text text-darken-4"><%="#{Meal.lunch[3].upcase}"%><i class="material-icons right">click here for recipe:)</i></span>
+    
+   </div>
+   <div class="card-reveal">
+     <span class="card-title grey-text text-darken-4"><%="#{Meal.lunch[3].upcase}"%><i class="material-icons right">close</i></span>
+     <p><%="#{"<h2>Ingredients</h2>
+<ul>
+<li>4 ounces extra-firm tofu, drained</li>
+<li>Olive oil</li>
+<li>½ pound cremini mushrooms, trimmed and sliced</li>
+<li>¾ teaspoon kosher salt, more as needed</li>
+<li>Black pepper, as needed</li>
+<li>1 (15-ounce) can kidney beans, drained</li>
+<li>1 medium beet, peeled and coarsely grated (3/4 cup)</li>
+<li>¾ cup tamari almonds or cashews</li>
+<li>⅓ cup panko bread crumbs</li>
+<li>2 ounces Cotija cheese or queso blanco, crumbled or grated (about 1/2 cup)</li>
+<li>2 large eggs</li>
+<li>2 tablespoons mayonnaise</li>
+<li>2 scallions, sliced</li>
+<li>3 garlic cloves, finely chopped</li>
+<li>¾ teaspoon dulce pimentón or sweet smoked paprika</li>
+<li>4 ounces tempeh, crumbled</li>
+<li>½ cup cooked brown rice</li>
+</ul>
+
+<h2>Instructions</h2>
+<ol>
+<li>Heat oven to 425 degrees. Slice tofu into 1/4-inch-thick slabs and pat dry with paper towel. Arrange tofu on one half of a rimmed baking sheet; brush both sides with oil. Spread mushrooms on the other half of the baking sheet; toss with 2 tablespoons oil and salt and pepper.</li>
+<li>On a second rimmed baking sheet, toss beans and grated beet with 1 tablespoon oil and salt and pepper, then spread the mixture into one layer.</li>
+<li>Transfer both baking sheets to the oven. Roast bean-beet mixture, tossing occasionally, until beans begin to split and beets are tender and golden, about 15 minutes. Roast mushrooms and tofu until golden and most of the liquid has evaporated, about 25 minutes. Let everything cool.</li>
+<li>Place nuts in a food processor and pulse until coarsely ground. Add cooled bean-beet mixture, mushrooms, tofu, panko, cheese, eggs, mayonnaise, scallion, garlic, pimentón and 3/4 teaspoon salt. Pulse until ingredients are just combined. Pulse in tempeh and rice but do not overprocess. You want small chunks, not a smooth mixture. Scrape mixture into a bowl and chill at least 2 hours or up to 5 days (you can also freeze the burger mix).</li>
+<li>When you are ready to make the burgers, divide mixture into 6 equal portions and form each portion into a patty about 1 inch thick. Return to the fridge until just before grilling. They grill better when they start out cold.</li>
+<li>Heat the grill. Cook the burgers over a low fire until they are charred on both sides and firm when you press on them, 4 to 6 minutes per side. If they start to burn before they firm up, move them to the sides of the grill to finish cooking over indirect heat. Alternatively, you can cook these on a grill pan or in a skillet over low heat</li>
+</ol>
+
+"}"%></p>
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+   </div>
+   </div>
+ </div>
+ 
+ 
+ </div>
+</body>
+</html>

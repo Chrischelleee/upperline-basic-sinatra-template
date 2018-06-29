@@ -1,7 +1,222 @@
-<h1>Breakfast Ideas</h1>
 
-  <ul>
-    <% Meal.breakfast.each do |breakfast| %>
-    <li> <%= breakfast %> </li>
-    <% end %>
-  </ul>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Girlbo$$</title>
+  <!-- Compiled and minified CSS -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+   <!-- Compiled and minified JavaScript -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+   
+   <style>
+     
+   </style>
+</head>
+<body>
+  <h1>Breakfast</h1>
+  
+  <div class="container">
+    <div class = "row">
+      <div class="card col-xl6">
+        <div class="card-image waves-effect waves-block waves-light">
+          <img class="activator" src="https://158lqg3dv1p427q2k01bdwkr-wpengine.netdna-ssl.com/wp-content/uploads/2018/04/butcher-1.jpg">
+        </div>
+   <div class="card-content">
+     <span class="card-title activator grey-text text-darken-4"><%="#{Meal.breakfast[0].upcase}"%><i class="material-icons right">click here for recipe:)</i></span>
+    
+   </div>
+   <div class="card-reveal">
+     <span class="card-title grey-text text-darken-4"><%="#{Meal.breakfast[0].upcase}"%><i class="material-icons right">close</i></span>
+     <p><%="<h2>Ingredients</h2>
+<ul>
+<li>1 avocado peeled and seeded</li>
+<li>2 tablespoons chopped cilantro</li>
+<li>juice of 1/2 lime</li>
+<li>1/2 teaspoon red pepper flakes optional</li>
+<li>salt & pepper to taste</li>
+<li>2 slices whole grain bread or bread of choice</li>
+<li>2 eggs fried, scrambled, or poached, optional</li>
+</ul>
+
+<h2>Instructions</h2>
+<ol>
+<li>Toast 2 slices of whole grain in a toaster until golden and crispy.</li>
+
+<li>In a small bowl combine and mash the avocado, cilantro, lime, and salt + pepper to taste. Spread half of the mixture on each slice of toasted bread</li>
+</ol>"%></p>
+     
+     
+     
+     
+     
+     
+     
+     
+     
+   </div>
+   </div>
+      <div class="card col-xl6">
+        <div class="card-image waves-effect waves-block waves-light">
+          <img class="activator" src="https://www.wellandgood.com/wp-content/uploads/2017/09/Stocksy-Oatmeal-Bowl-Natasa-Mandic.jpg">
+        </div>
+   <div class="card-content">
+     <span class="card-title activator grey-text text-darken-4"><%="#{Meal.breakfast[1].upcase}"%><i class="material-icons right">click here for recipe:)</i></span>
+    
+   </div>
+   <div class="card-reveal">
+     <span class="card-title grey-text text-darken-4"><%="#{Meal.breakfast[1].upcase}"%><i class="material-icons right">close</i></span>
+     <p><%="#{"<h2>Ingredients</h2>
+<ul>
+<li>3/4 cup soy milk (200 milliliters)</li>
+<li>1/4 cup oats (30 g)</li>
+<li>2 dates</li>
+<li>3 walnuts</li>
+<li>1 strawberry</li>
+<li>1 banana</li>
+<li>1 teaspoon agave syrup (optional)</li>
+<li>1/4 teaspoon cinnamon (optional</li>
+</ul>
+
+<h2>Instructions</h2>
+<ol>
+<li>Pour the milk in a saucepan and bring it to boil.</li>
+<li>Add the oats, cover the saucepan and cook over medium heat for about 10 or 15 minutes.</li>
+<li>Place the mixture in a bowl and add the rest of the ingredients</li>
+</ol>
+"}"%></p>
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+   </div>
+   </div>
+ </div>
+ </div>
+ <div class="container">
+ <div class = "row">
+      <div class="card col-xl6">
+        <div class="card-image waves-effect waves-block waves-light">
+          <img class="activator" src="https://food.fnr.sndimg.com/content/dam/images/food/fullset/2017/6/5/0/FNK_BAKED-CLOUD-EGGS-H_s4x3.jpg.rend.hgtvcom.616.462.suffix/1496675109230.jpeg">
+        </div>
+   <div class="card-content">
+     <span class="card-title activator grey-text text-darken-4"><%="#{Meal.breakfast[2].upcase}"%><i class="material-icons right">click here for recipe:)</i></span>
+   </div>
+   <div class="card-reveal">
+     <span class="card-title grey-text text-darken-4"><%="#{Meal.breakfast[2].upcase}"%><i class="material-icons right">close</i></span>
+     <p><%="#{"<h2>Ingredients</h2>
+<ul>
+<li>Nonstick cooking spray</li>
+<li>4 large eggs</li>
+<li>Kosher salt</li>
+<li>4 slices buttered brioche toast, for serving</li>
+</ul>
+
+<h2>Instructions</h2>
+<ol>
+<li>Watch how to make this recipe.</li>
+<li>Preheat the oven to 350 degrees F. Line a baking sheet with parchment and coat with nonstick cooking spray.</li>
+<li>Coat 4 small bowls with nonstick cooking spray. Separate the eggs and put the whites into a medium bowl and the yolks in the small bowls (1 yolk per bowl). Add a large pinch of salt to the egg whites and beat with an electric mixer on low speed until stiff peaks form, 2 to 3 minutes.</li>
+<li>Dollop 4 large spoonfuls of the egg whites onto the prepared baking sheet and make a small well in the middle of each with the back of a spoon. Bake the whites until they are firm, no longer wet and just beginning to turn brown, about 6 minutes. Gently pour 1 yolk into the well of each white. Bake until the edges of the yolk just start to set while still being runny, 3 to 4 minutes. Season with salt.</li>
+<li>Serve on top of buttered brioche toast.
+</ol>
+
+
+
+"}"%></p>
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+   </div>
+   </div>
+
+      <div class="card col-xl6">
+        <div class="card-image waves-effect waves-block waves-light">
+          <img class="activator" src="https://rmhsnews.org/wp-content/uploads/2016/06/journalism-acai-bowl.jpg">
+        </div>
+   <div class="card-content">
+     <span class="card-title activator grey-text text-darken-4"><%="#{Meal.breakfast[3].upcase}"%><i class="material-icons right">click here for recipe:)</i></span>
+    
+   </div>
+   <div class="card-reveal">
+     <span class="card-title grey-text text-darken-4"><%="#{Meal.breakfast[3].upcase}"%><i class="material-icons right">close</i></span>
+     <p><%="#{"<h2>Ingredients</h2>
+<ul>
+<li>The Bowl</li>
+<li>1 packet organic unsweetened acai</li>
+<li>1 1/4 cups frozen mixed berries</li>
+<li>1 small frozen banana</li>
+<li>1/2 cup unsweetened coconut or almond milk</li>
+<li>1 heaping tablespoon cashew butter</li>
+<li>1 tablespoon honey maple syrup for vegan</li>
+<li>2 tablespoons hemp seeds or chia seeds</li>
+<li>2 tablespoons collagen peptides omit for vegan</li>
+<li>1 tablespoon coconut oil</li>
+<li>Toppings (optional)</li>
+<li>bee pollen for topping</li>
+<li>cacao nibs for topping</li>
+<li>unsweetened coconut flakes for topping</li>
+<li>fresh fruit for topping</li>
+</ul>
+
+<h2>Instructions</h2>
+<ol>
+
+<li>In the pitcher of a high-speed blender, add all of the ingredients.</li>
+<li>Blend on medium-high for 1 minute.</li>
+<li>Pour into a bowl and top off with your favorite toppings.</li>
+</ol>
+"}"%></p>
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+   </div>
+   </div>
+ </div>
+ 
+ 
+ </div>
+</body>
+</html>

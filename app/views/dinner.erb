@@ -1,7 +1,236 @@
-<h1>Dinner Ideas</h1>
 
-  <ul>
-    <% Meal.dinner.each do |dinner| %>
-    <li> <%= dinner %> </li>
-    <% end %>
-  </ul>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>DinnerBo$$</title>
+  <!-- Compiled and minified CSS -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+   <!-- Compiled and minified JavaScript -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+   
+   <style>
+     
+   </style>
+</head>
+<body>
+  <h1>Dinner</h1>
+  
+  <div class="container">
+    <div class = "row">
+      <div class="card col-xl6">
+        <div class="card-image waves-effect waves-block waves-light">
+          <img class="activator" src="https://ci4.googleusercontent.com/proxy/9dmeqpBA8tPd0gWqQJxbAitxoroN0pJCRe6xvq3zld1m9x1TxucykPGES82RgISQiGL-KnjZ5obitjsXBli5AVgNGqXjnXHOnLaFZhv7TvUzDNauanMPdmP-_N_ECy4=s0-d-e1-ft#http://livinglovingpaleo.com/wp-content/uploads/2014/04/Zoodles_1_WEB.jpg">
+        </div>
+   <div class="card-content">
+     <span class="card-title activator grey-text text-darken-4"><%="#{Meal.dinner[0].upcase}"%><i class="material-icons right">click here for recipe:)</i></span>
+    
+   </div>
+   <div class="card-reveal">
+     <span class="card-title grey-text text-darken-4"><%="#{Meal.dinner[0].upcase}"%><i class="material-icons right">close</i></span>
+     <p><%="<h2>Ingredients</h2>
+<ul>
+<li>For the Pesto:</li>
+
+<li>1 cup packed fresh basil</li>
+<li>1 clove garlic</li>
+<li>1/4 cup fresh grated parmesan cheese</li>
+<li>kosher salt & pepper to taste</li>
+<li>3 tbsp extra virgin olive oil</li>
+<li>For the zoodles:</li>
+
+<li>21 oz (3 medium or 4 small) zucchinis</li>
+<li>1 cup heirloom grape or cherry tomatoes, halved</li>
+<li>kosher salt and black pepper to taste</li>
+</ul>
+
+<h2>Instructions</h2>
+<ol>
+<li>In a food processor pulse basil, garlic, parmesan cheese, salt and pepper until smooth.</li>
+<li>Slowly add the olive oil while pulsing. Set aside.</li>
+<li>Spiralize the zucchini, cut it into smaller strands if they are too long and place them in a work bowl.</li>
+<li>Toss with the pesto and tomatoes and season with salt and pepper as needed.</li>
+</ol>
+"%></p>
+     
+     
+     
+     
+     
+     
+     
+     
+     
+   </div>
+   </div>
+      <div class="card col-xl6">
+        <div class="card-image waves-effect waves-block waves-light">
+          <img class="activator" src="https://i.pinimg.com/originals/65/d9/dd/65d9dd6a3f8499fbef6d3ea6c188af52.jpg">
+        </div>
+   <div class="card-content">
+     <span class="card-title activator grey-text text-darken-4"><%="#{Meal.dinner[1].upcase}"%><i class="material-icons right">click here for recipe:)</i></span>
+    
+   </div>
+   <div class="card-reveal">
+     <span class="card-title grey-text text-darken-4"><%="#{Meal.dinner[1].upcase}"%><i class="material-icons right">close</i></span>
+     <p><%="#{"<h2>Ingredients</h2>
+<ul>
+<li>1/2 medium head of cauliflower (4 cups of small florets)</li>
+<li>2 1/2 tbsp flaxmeal or chia seeds</li>
+<li>1/4 cup water</li>
+<li>1/3 cup flour (I’ve used spelt, white, oat, or sorghum. Readers reported success with almond. Or use very loosely packed 1/2 cup rolled oats or quinoa flakes)</li>
+<li>1 tsp dried oregano</li>
+<li>1/4 tsp garlic powder</li>
+<li>1/2 tsp salt</li>
+</ul>
+
+<h2>Instructions</h2>
+<ol>
+<li>Line a baking sheet with parchment, and set aside. Whisk together flax and water, then refrigerate at least a 1/2 hour. Chop cauliflower into small florets, then steam until fall-apart soft. Drain fully.</li>
+
+<li>If using rolled oats, process them in a food processor until oats achieve a flour-like texture. Or just use oat flour and skip the processing step. Stir the oat flour with the oregano, garlic, and salt.</li>
+<li>Preheat oven to 450 F. Once cauliflower cools a little, place it in a clean dish towel or cheesecloth over a sink or bowl, and squeeze out as much moisture as possible. At least 2/3 cup water should come out – You want it as dry as possible. Place the squeezed-out cauliflower into a medium bowl and add the flax mixture. Mash and stir well. Then stir in the oat mixture. Form into a ball, and place on top of the parchment-lined baking sheet. Pat into a circle, then use another sheet of parchment on top (and a rolling pin, if desired) to spread the circle to about 1/4 inch thick. (Take off the top sheet of parchment before baking.) Bake 25 minutes, or until lightly browned with crispy edges. Remove and add toppings of choice. Bake an additional 8 minutes. Allow to cool 5 minutes, then slice and enjoy!</li>
+</ol>
+"}"%></p>
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+   </div>
+   </div>
+ </div>
+ </div>
+ <div class="container">
+ <div class = "row">
+      <div class="card col-xl6">
+        <div class="card-image waves-effect waves-block waves-light">
+          <img class="activator" src="https://i.pinimg.com/736x/7d/68/91/7d6891e68f2327cfba663bc20c9db63f.jpg">
+        </div>
+   <div class="card-content">
+     <span class="card-title activator grey-text text-darken-4"><%="#{Meal.dinner[2].upcase}"%><i class="material-icons right">click here for recipe:)</i></span>
+   </div>
+   <div class="card-reveal">
+     <span class="card-title grey-text text-darken-4"><%="#{Meal.dinner[2].upcase}"%><i class="material-icons right">close</i></span>
+     <p><%="#{"<h2>Ingredients</h2>
+<ul>
+<li>1 cup cooked and cooled quinoa (make sure it's cooked and completely cooled before using)</li>
+<li>1 15-ounce can black beans (rinsed, drained, dried)</li>
+<li>1/4 cup pumpkin seeds (raw or roasted)</li>
+<li>5 cloves garlic (skin removed and crushed)</li>
+<li>1/2 tsp sea salt, plus more to taste</li>
+<li>1 tsp ground cumin</li>
+<li>1/2 tsp ground coriander</li>
+<li>2 Tbsp tomato paste</li>
+<li>2 Tbsp coconut aminos</li>
+<li>1 chipotle pepper in adobo sauce (omit for less spicy falafel)</li>
+<li>1 tsp nutritional yeast (optional)</li>
+</ul>
+
+<h2>Instructions</h2>
+<ol>
+<li>If you haven’t prepared your quinoa yet, do so now (make sure it’s cooked and cooled completely before use).</li>
+<li>Preheat oven to 350 degrees F (176 C). Add rinsed, dried black beans to a parchment-lined baking sheet. Bake for 15 minutes or until beans appear cracked and feel dry to the touch (see beans in food processor photo). Remove beans from the oven and then increase oven heat to 375 degrees F (190C).</li>
+<li>Add black beans to a food processor along with pumpkin seeds and garlic (see photo) and pulse into a loose meal. Then add cooked/cooled quinoa, salt, cumin, coriander, tomato paste, coconut aminos, chipotle pepper in adobo, and nutritional yeast (optional). Blend to combine until a textured dough forms (you're not looking for a purée).</li>
+<li>Taste and adjust flavor as needed, adding more coconut aminos for saltiness/depth of flavor, adobo sauce for heat, cumin for smokiness, or salt for overall flavor.</li>
+<li>Scoop out 1 1/2 Tbsp amounts (using this scoop or a Tablespoon) and gently form into small discs using your hands. Add formed falafel to a parchment-lined baking sheet.</li>
+<li>Bake for 15 minutes. Then flip to ensure even baking and bake for 10-15 minutes more or until golden brown and crispy on the edges.</li>
+<li>These falafel are delicious with hummus, garlic dill sauce, baba ganoush, or tahini sauce. Try garnishing with chili garlic sauce for extra heat. Serve over greens or in pita, or enjoy as is!</li>
+<li>Store leftovers covered in the refrigerator up to 3-4 days. To freeze, either freeze once baked and cooled OR before baking. Then add to a freezer-safe container and freeze up to 1 month. Reheat in a 375 degree F (190 C) oven until warmed through.</li>
+</ol>
+
+
+
+
+"}"%></p>
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+   </div>
+   </div>
+
+      <div class="card col-xl6">
+        <div class="card-image waves-effect waves-block waves-light">
+          <img class="activator" src="https://ci3.googleusercontent.com/proxy/vmQX4iN9L2CuG6eL2L2oeGDTYwqgYj_OnUec9E9NAtpcd8Sck0DhuNh7-64XLrJsqUBbhu2wTjpdDpn2HTa85nGh7SSb3Wv-SOiEAYIpHhhXKf-aRR59mDIO45_uQZFK_MUId9Bon_2zVg=s0-d-e1-ft#https://cookieandkate.com/images/2017/09/10-minute-quesadilla-recipe-3-1100x1648.jpg">
+        </div>
+   <div class="card-content">
+     <span class="card-title activator grey-text text-darken-4"><%="#{Meal.dinner[3].upcase}"%><i class="material-icons right">click here for recipe:)</i></span>
+    
+   </div>
+   <div class="card-reveal">
+     <span class="card-title grey-text text-darken-4"><%="#{Meal.dinner[3].upcase}"%><i class="material-icons right">close</i></span>
+     <p><%="#{"<h2>Ingredients</h2>
+<ul>
+<li>Per quesadilla</li>
+
+<li>1 whole-grain flour tortilla (about 8″ diameter)</li>
+<li>½ cup freshly grated cheddar cheese</li>
+<li>¼ cup cooked black beans or pinto beans, rinsed and drained</li>
+<li>1 tablespoon chopped red bell pepper or jarred roasted bell pepper or a few thinly sliced cherry tomatoes</li>
+<li>1 tablespoon chopped red onion or green onion</li>
+<li>1 tablespoon chopped pickled jalapeño (if you like heat)</li>
+<li>1 teaspoon avocado oil, melted butter or extra-virgin olive oil, for brushing</li>
+<li>Any of the following, for serving: Salsa, guacamole or strips of avocado, sour cream, hot sauce, chopped fresh cilantro</li>
+</ul>
+
+<h2>Instructions</h2>
+<ol>
+<li>Heat a medium skillet over medium heat. Warm your tortilla for about 30 seconds, flipping halfway. Flip once more, then sprinkle one-half of the tortilla with about half of the cheese. Cover the cheese evenly with the remaining fillings: beans, bell pepper, onion and jalapeño (if using).</li>
+<li>Sprinkle the remaining cheese over the fillings, and fold over the empty side of the tortilla to enclose the fillings. Quickly brush the top of the quesadilla with a light coating of oil, then carefully flip it with a spatula.</li>
+<li>Let the quesadilla cook until golden and crispy on the bottom, about 1 to 2 minutes, reducing the heat if necessary to prevent burning the tortilla. Brush the top with a light coating of oil, then flip it and cook until the second side is golden and crispy.</li>
+<li>Immediately remove the skillet from the heat and transfer the quesadilla to a cutting board. Let it cool for a minute to give the cheese time to set, then use a chef’s knife to slice it into 3 pieces. Serve promptly, with any sauces or garnishes that you’d like.</li>
+</ol>
+
+"}"%></p>
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+   </div>
+   </div>
+ </div>
+ 
+ 
+ </div>
+</body>
+</html>

@@ -7,6 +7,14 @@ class ApplicationController < Sinatra::Base
     set :views, 'app/views'
   end
 
+  get '/' do
+    erb :index
+  end
+  
+  get '/food' do
+    erb :food
+  end
+  
   get '/breakfast' do
     erb :breakfast
   end
@@ -21,5 +29,29 @@ class ApplicationController < Sinatra::Base
 
   get '/snack' do
     erb :snack
+  end
+  
+  get '/workout' do
+    erb :workouts
+  end
+  
+  get '/legs' do
+    erb :legs
+  end
+  
+  get '/core' do
+    erb :core
+  end
+  
+  get '/arms' do
+    erb :arms
+  end
+  
+  get '/cardio' do
+    erb :cardio
+  end
+  
+  get '/self_defense' do
+    erb :self_defense
   end
 end
