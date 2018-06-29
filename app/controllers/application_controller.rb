@@ -54,4 +54,8 @@ class ApplicationController < Sinatra::Base
   get '/self_defense' do
     erb :self_defense
   end
+  
+  get '/tips_techniques' do
+    erb :tips_techniques
+  end
 end

@@ -78,7 +78,7 @@ class Self_Defense
     # @@meal_plan = {}
 
     @@options = {
-    :tips_techniques => ["keys", "car position", "break nose"]
+    :tips_techniques => ["vagus nerve", "break nose", "keys", "escape a wrist hold"]
 }
 
     def initialize (choice)
@@ -93,3 +93,24 @@ class Self_Defense
 end
 
 puts Self_Defense.tips_techniques
+
+
+class About_Us
+    attr_accessor :choice
+    
+@@options = {
+    :names => ["Aastha More", "Yazzy Ahuja", "Lizzy Lock"]
+}
+
+    def initialize (choice)
+        @choice = choice
+        # @@meal_plan
+    end
+
+    def self.names
+        @@options[:names]
+    end
+
+end
+
+puts About_Us.names
